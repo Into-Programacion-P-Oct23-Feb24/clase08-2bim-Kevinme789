@@ -18,7 +18,7 @@ public class ArrayList03 {
     public static void main(String[] args) {
 
         System.out.println("----------------------------------");
-        
+
         ArrayList<String> arreglo2 = new ArrayList<>();
         boolean bandera = true;
         String pais;
@@ -34,14 +34,13 @@ public class ArrayList03 {
                 bandera = false;
             }
         }
-        
+
         System.out.println("Presentar los valor en pantalla");
-        
+
         for (int i = 0; i < arreglo2.size(); i++) {
             System.out.printf("%s\n", arreglo2.get(i));
         }
-        
-        
+
         /*
         ArrayList <String> arreglo2 = new ArrayList<>();
         
